@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.LampMosthionTest.CSharp", "UnityVS.LampMosthionTest.CSharp.csproj", "{2DE0497D-CB40-B986-5751-6EF9E326FA3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.LampMosthionTest.CSharp.Editor", "UnityVS.LampMosthionTest.CSharp.Editor.csproj", "{3BF4B2ED-1571-6F20-5968-FF44C0B3EA7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DE0497D-CB40-B986-5751-6EF9E326FA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE0497D-CB40-B986-5751-6EF9E326FA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE0497D-CB40-B986-5751-6EF9E326FA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE0497D-CB40-B986-5751-6EF9E326FA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BF4B2ED-1571-6F20-5968-FF44C0B3EA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF4B2ED-1571-6F20-5968-FF44C0B3EA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF4B2ED-1571-6F20-5968-FF44C0B3EA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF4B2ED-1571-6F20-5968-FF44C0B3EA7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

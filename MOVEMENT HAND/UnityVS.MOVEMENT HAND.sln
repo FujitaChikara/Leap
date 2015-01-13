@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.MOVEMENT HAND.CSharp", "UnityVS.MOVEMENT HAND.CSharp.csproj", "{A5521D02-35DF-021B-B789-9A85DBE8B505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.MOVEMENT HAND.CSharp.Editor", "UnityVS.MOVEMENT HAND.CSharp.Editor.csproj", "{9469892D-8A85-0BEB-203D-AED49A864959}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5521D02-35DF-021B-B789-9A85DBE8B505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5521D02-35DF-021B-B789-9A85DBE8B505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5521D02-35DF-021B-B789-9A85DBE8B505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5521D02-35DF-021B-B789-9A85DBE8B505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9469892D-8A85-0BEB-203D-AED49A864959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9469892D-8A85-0BEB-203D-AED49A864959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9469892D-8A85-0BEB-203D-AED49A864959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9469892D-8A85-0BEB-203D-AED49A864959}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

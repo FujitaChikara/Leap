@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EF5068A4-E7F2-90B7-C407-8805A7DD1643}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_5_3;UNITY_4_5;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_5_3;UNITY_4_5;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="LeapCSharp.NET3.5">
+      <HintPath>Assets\Plugins\LeapCSharp.NET3.5.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Script\GameMain\AddTimerDestroy.cs" />
+    <Compile Include="Assets\Script\GameMain\Bomb.cs" />
+    <Compile Include="Assets\Script\GameMain\ColliderChenge.cs" />
+    <Compile Include="Assets\Script\GameMain\CollisionState.cs" />
+    <Compile Include="Assets\Script\GameMain\ControllerDelete.cs" />
+    <Compile Include="Assets\Script\GameMain\CountDown.cs" />
+    <Compile Include="Assets\Script\GameMain\ParticlDestory.cs" />
+    <Compile Include="Assets\Script\GameMain\ParticlDestroy.cs" />
+    <Compile Include="Assets\Script\GameMain\PlayerDestry.cs" />
+    <Compile Include="Assets\Script\GameMain\Rank.cs" />
+    <Compile Include="Assets\Script\GameMain\SceneTransition.cs" />
+    <Compile Include="Assets\Script\GameMain\Score.cs" />
+    <Compile Include="Assets\Script\GameMain\ScoreSave.cs" />
+    <Compile Include="Assets\Script\GameMain\SphereDischarge.cs" />
+    <Compile Include="Assets\Script\GameMain\SphereMove.cs" />
+    <Compile Include="Assets\Script\GameMain\TargetDestry.cs" />
+    <Compile Include="Assets\Script\GameMain\TestScript.cs" />
+    <Compile Include="Assets\Script\GameMain\Timer.cs" />
+    <Compile Include="Assets\Script\GameMain\UIFlashing.cs" />
+    <Compile Include="Assets\Script\Title\AfterScore.cs" />
+    <Compile Include="Assets\Script\Title\MouseActive.cs" />
+    <Compile Include="Assets\Script\Title\SceneChenge.cs" />
+    <Compile Include="Assets\Script\Title\SpriteSlider.cs" />
+    <Compile Include="Assets\Script\Title\TitleScene.cs" />
+    <Compile Include="Assets\asetto\LeapMotion\Scripts\DemoScripts\CubeWave.cs" />
+    <Compile Include="Assets\asetto\LeapMotion\Scripts\HandController.cs" />
+    <Compile Include="Assets\asetto\LeapMotion\Scripts\Hands\FingerModel.cs" />
+    <Compile Include="Assets\asetto\LeapMotion\Scripts\Hands\HandModel.cs" />
+    <Compile Include="Assets\asetto\LeapMotion\Scripts\Hands\PolyFinger.cs" />
+    <Compile Include="Assets\asetto\LeapMotion\Scripts\Hands\PolyHand.cs" />
+    <Compile Include="Assets\asetto\LeapMotion\Scripts\Hands\RiggedFinger.cs" />
+    <Compile Include="Assets\asetto\LeapMotion\Scripts\Hands\RiggedHand.cs" />
+    <Compile Include="Assets\asetto\LeapMotion\Scripts\Hands\RigidFinger.cs" />
+    <Compile Include="Assets\asetto\LeapMotion\Scripts\Hands\RigidHand.cs" />
+    <Compile Include="Assets\asetto\LeapMotion\Scripts\Hands\SkeletalFinger.cs" />
+    <Compile Include="Assets\asetto\LeapMotion\Scripts\Hands\SkeletalHand.cs" />
+    <Compile Include="Assets\asetto\LeapMotion\Scripts\Utils\ConfidenceTransparency.cs" />
+    <Compile Include="Assets\asetto\LeapMotion\Scripts\Utils\LeapUnityExtensions.cs" />
+    <Compile Include="Assets\asetto\LeapMotion\Scripts\Utils\MagneticPinch.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\InventorySystem\Game\UIEquipmentSlot.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\InventorySystem\Game\UIItemSlot.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\InventorySystem\Game\UIItemStorage.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\InventorySystem\Game\UIStorageSlot.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\InventorySystem\System\InvAttachmentPoint.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\InventorySystem\System\InvBaseItem.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\InventorySystem\System\InvDatabase.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\InventorySystem\System\InvEquipment.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\InventorySystem\System\InvGameItem.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\InventorySystem\System\InvStat.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\ChatInput.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\DownloadTexture.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\DragDropContainer.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\DragDropItem.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\DragDropRoot.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\DragDropSurface.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\LagPosition.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\LagRotation.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\LoadLevelOnClick.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\LookAtTarget.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\PanWithMouse.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\PlayIdleAnimations.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\SetColorOnSelection.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\ShaderQuality.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\Spin.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\SpinWithMouse.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\TypewriterEffect.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\UISliderColors.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\UpdateManager.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\WindowAutoYaw.cs" />
+    <Compile Include="Assets\asetto\NGUI\Examples\Scripts\Other\WindowDragTilt.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIButton.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIButtonActivate.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIButtonColor.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIButtonKeyBinding.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIButtonKeys.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIButtonMessage.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIButtonOffset.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIButtonScale.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UICenterOnChild.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIDragCamera.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIDragObject.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIDragPanelContents.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIDraggableCamera.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIDraggablePanel.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIGrid.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIImageButton.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIInputValidator.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIPlayAnimation.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIPlaySound.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIPlayTween.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIPopupList.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UISavedOption.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIScrollBar.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UISlider.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UISoundVolume.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UITable.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIToggle.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIToggledComponents.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIToggledObjects.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Interaction\UIWidgetContainer.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\ActiveAnimation.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\AnimationOrTween.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\BMFont.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\BMGlyph.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\BMSymbol.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\BetterList.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\ByteReader.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\EventDelegate.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\Localization.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\NGUIDebug.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\NGUIMath.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\NGUITools.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\RealTime.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\SpringPanel.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\UIDrawCall.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\UIEventListener.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\UIGeometry.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Internal\UIWidget.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Tweening\AnimatedAlpha.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Tweening\AnimatedColor.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Tweening\SpringPosition.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Tweening\TweenAlpha.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Tweening\TweenColor.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Tweening\TweenFOV.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Tweening\TweenHeight.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Tweening\TweenOrthoSize.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Tweening\TweenPosition.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Tweening\TweenRotation.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Tweening\TweenScale.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Tweening\TweenTransform.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Tweening\TweenVolume.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Tweening\TweenWidth.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\Tweening\UITweener.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UIAnchor.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UIAtlas.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UICamera.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UIFont.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UIInput.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UILabel.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UILocalize.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UIOrthoCamera.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UIPanel.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UIRoot.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UISprite.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UISpriteAnimation.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UISpriteData.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UIStretch.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UITextList.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UITexture.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UITooltip.cs" />
+    <Compile Include="Assets\asetto\NGUI\Scripts\UI\UIViewport.cs" />
+    <Compile Include="Assets\asetto\Particle\52SpecialEffectPack\LegacyEffectEditor\csLegacyEffectChanger.cs" />
+    <Compile Include="Assets\asetto\Particle\52SpecialEffectPack\LegacyEffectEditor\csLegacyEffectEditor.cs" />
+    <Compile Include="Assets\asetto\Particle\FX Mega Pack 2\Scripts\SmoothCameraOrbit.cs" />
+    <Compile Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Demo\Assets\CFX3_AutoStopLoopedEffect.cs" />
+    <Compile Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Demo\Assets\CFX3_Demo.cs" />
+    <Compile Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Demo\Assets\CFX3_Demo_Translate.cs" />
+    <Compile Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo.cs" />
+    <Compile Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+    <Compile Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
+    <Compile Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+    <Compile Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+    <Compile Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
+    <Compile Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Scripts\CFX_AutodestructWhenNoChildren.cs" />
+    <Compile Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Scripts\CFX_InspectorHelp.cs" />
+    <Compile Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+    <Compile Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
+    <Compile Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+    <None Include="Assets\asetto\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
+    <None Include="Assets\asetto\LeapMotion\Materials\Sources\Shaders\Toony-BasicOutline.shader" />
+    <None Include="Assets\asetto\LeapMotion\Materials\Sources\Shaders\Toony-Lighted.shader" />
+    <None Include="Assets\asetto\LeapMotion\Materials\Sources\Shaders\Toony-LightedOutline.shader" />
+    <None Include="Assets\asetto\LeapMotion\readme.txt" />
+    <None Include="Assets\asetto\NGUI\1. Which Version To Import.txt" />
+    <None Include="Assets\asetto\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+    <None Include="Assets\asetto\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+    <None Include="Assets\asetto\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+    <None Include="Assets\asetto\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+    <None Include="Assets\asetto\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+    <None Include="Assets\asetto\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+    <None Include="Assets\asetto\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+    <None Include="Assets\asetto\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+    <None Include="Assets\asetto\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+    <None Include="Assets\asetto\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+    <None Include="Assets\asetto\NGUI\Examples\Other\English.txt" />
+    <None Include="Assets\asetto\NGUI\Examples\Other\French.txt" />
+    <None Include="Assets\asetto\NGUI\Examples\Shaders\Refractive.shader" />
+    <None Include="Assets\asetto\NGUI\ReadMe - 3.0.2.txt" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+    <None Include="Assets\asetto\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\asetto\Particle\FX Mega Pack 2\FX Mega Pack 2 - Readme.txt" />
+    <None Include="Assets\asetto\Particle\FX Mega Pack 2\Scripts\Simple Particle Scaler\Simple Particle Scaler - Readme.txt" />
+    <None Include="Assets\asetto\Particle\FX Mega Pack 2\Shaders\Mobile Vertex Color Cull Off.shader" />
+    <None Include="Assets\asetto\Particle\JMO Assets\!JMO Assets Readme.txt" />
+    <None Include="Assets\asetto\Particle\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+    <None Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\CartoonFX Readme.txt" />
+    <None Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\CartoonFX3 Readme.txt" />
+    <None Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_WaterWiggle.shader" />
+    <None Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+    <None Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Shaders\CFX3 Invert.shader" />
+    <None Include="Assets\asetto\Particle\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+    <None Include="Assets\asetto\Particle\Toon Particles - Magic Collection\ToonMagic - Readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

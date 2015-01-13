@@ -1,0 +1,23 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/GameMain/ScoreSave.cs">
+    <Files>
+      <File FileName="Assets/Script/GameMain/ScoreSave.cs" Line="4" Column="1" />
+      <File FileName="Assets/asetto/NGUI/Scripts/Interaction/UIButton.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/GameMain/PlayerDestry.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/GameMain/SphereMove.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/GameMain/CountDown.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/GameMain/Timer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/GameMain/Score.cs" Line="1" Column="1" />
+      <File FileName="Assets/asetto/NGUI/Scripts/Editor/NGUIEditorTools.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/GameMain/ScoreSave.cs" Line="1" Column="1" />
+      <File FileName="Assets/ControllerDelete.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/GameMain/CollisionState.cs" Line="1" Column="1" />
+      <File FileName="Assets/UIFlashing.cs" Line="14" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
